@@ -127,7 +127,7 @@ different for your cluster.
 
  * NameNode status - [http://leader1:50070/](http://leader1:50070/)
  * ResourceManger status - [http://leader2:8088/cluster](http://leader2:8088/cluster)
- * Accumulo monitor - [http://leader3:50095/](http://leader3:50095/)
+ * Accumulo monitor - [http://leader3:50095/](http://leader3:50095/)  (new default address in Accumulo 1.8 is [http://leader3:9995/](http://leader3:9995/))
  * Spark History Server - [http://leader2:18080/](http://leader2:18080/)
  * Grafana Metrics and Monitoring - [http://metrics:3000/](http://metrics:3000/)
  * Mesos status - [http://leader1:5050/](http://leader1:5050/) (if `mesosmaster` configured on leader1)

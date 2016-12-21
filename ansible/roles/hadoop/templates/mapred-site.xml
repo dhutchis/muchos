@@ -35,4 +35,10 @@
               {%- if not loop.last -%} , {%- endif -%}
            {%- endfor %}</value>
   </property>
+
+  <property>
+    <name>mapred.task.timeout</name>
+    <value>7200000</value> 
+  </property>
+
 </configuration>
