@@ -31,7 +31,7 @@ network_interface=eth0
 #proxy_socks_port = 38585
 # Accumulo Instance name
 accumulo_instance = muchos
-# Accumluo Password
+# Accumulo Password
 accumulo_password = secret
 # Software versions
 hadoop_version = 2.7.3
