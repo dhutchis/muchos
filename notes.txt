@@ -1,14 +1,23 @@
-Todo
+Replacing hosts:
+  ^sense-(\w+)\n([\d\.]+)\n([\d\.]+)\n
+  \1 \3 \2
+
+sed -e '122,127d' /home/centos/install/accumulo-1.8.0/conf/accumulo-site.xml
+
+
+
 
 leader3 System swappiness setting is greater than ten (30) which can cause time-sensitive operations to be delayed.  Accumulo is time sensitive because it needs to maintain distributed lock agreement.
 https://askubuntu.com/questions/103915/how-do-i-configure-swappiness
 cat /proc/sys/vm/swappiness
 sudo sysctl vm.swappiness=10
 
-declare -a arrall=("worker1" "worker2" "worker3" "worker4" "worker5" "worker6" "worker7" "worker8" "leader1" "leader2" "leader3")
+#declare -a arrall=("worker1" "worker2" "worker3" "worker4" "worker5" "worker6" "worker7" "worker8" "leader1" "leader2" "leader3")
+declare -a arrall=("worker1" "worker2" "worker3" "worker4" "leader1" "leader2" "leader3")
 for i in "${arrall[@]}"
 do
-	ssh -t $i sudo sysctl vm.swappiness=10
+  ssh -t $i sed -i.bak -e '122,127d' /home/centos/install/accumulo-1.8.0/conf/accumulo-site.xml
+  #ssh -t $i sudo sysctl vm.swappiness=10
 done
 
 get tab autocomplete for muchos
@@ -30,6 +39,8 @@ muchos start # update host
 alias accumuloroot="accumulo shell -u root -p secret"
 
 
+sftp centos@52.38.19.69:/home/centos/lara-graphulo/console.first.log
+sftp centos@52.38.19.69:/home/centos/lara-graphulo/console.ingestThenKill.log
 
 
 ssh leader2
@@ -59,7 +70,8 @@ EOF
 mvn package -DskipTests #-DNoDoAll
 
 # Place Graphulo JAR
-declare -a arrr=("worker1" "worker2" "worker3" "worker4" "worker5" "worker6" "worker7" "worker8") 
+#declare -a arrr=("worker1" "worker2" "worker3" "worker4" "worker5" "worker6" "worker7" "worker8") 
+declare -a arrr=("worker1" "worker2" "worker3" "worker4")
 #"leader1" "leader2" "leader3" 
 for i in "${arrr[@]}"
 do
@@ -119,6 +131,16 @@ cd lara-graphulo
 git fetch origin
 git checkout mr
 mvn package -DskipTests -DBundleAll
+
+
+declare -a arrr=("worker1" "worker2" "worker3" "worker4")
+#"leader1" "leader2" "leader3" 
+for i in "${arrr[@]}"
+do
+  sftp "$i":"/home/centos/install/accumulo-1.8.0/lib/ext" <<< $'put target/lara-graphulo-1.0-SNAPSHOT-tserver.jar'
+done
+
+
 
 
 EDIT accumulo-site.xml
