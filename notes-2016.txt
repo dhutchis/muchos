@@ -1,0 +1,479 @@
+Starting TableMult SCALE=10 NUMTAB=1
+Both Split 1 & compact time: 1.859990
+Graphulo TableMult Time: 3.321653
+Result Table DH_10_TgraphAdj_tXDHB_10_TgraphAdj #entries: 816423
+reducers: 1
+MR Time: 41.286486
+reducers: 2
+MR Time: 43.831992
+Starting TableMult SCALE=10 NUMTAB=2
+Both Split 2 & compact time: 2.565695
+Graphulo TableMult Time: 3.810135
+Result Table DH_10_TgraphAdj_tXDHB_10_TgraphAdj #entries: 816423
+reducers: 1
+MR Time: 33.946143
+reducers: 2
+MR Time: 36.714824
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Both Split 8 & compact time: 10.629930
+Graphulo TableMult Time: 1.105865
+Result Table DH_10_TgraphAdj_tXDHB_10_TgraphAdj #entries: 816423
+MR Time: 42.901520
+Starting TableMult SCALE=11 NUMTAB=8
+Both Split 8 & compact time: 9.533915
+Graphulo TableMult Time: 2.277173
+Result Table DH_11_TgraphAdj_tXDHB_11_TgraphAdj #entries: 2341751
+MR Time: 43.642759
+Starting TableMult SCALE=12 NUMTAB=8
+Both Split 8 & compact time: 9.669425
+Graphulo TableMult Time: 6.438843
+Result Table DH_12_TgraphAdj_tXDHB_12_TgraphAdj #entries: 6768259
+MR Time: 45.658141
+Starting TableMult SCALE=13 NUMTAB=8
+Both Split 8 & compact time: 3.394164
+Graphulo TableMult Time: 17.849768
+Result Table DH_13_TgraphAdj_tXDHB_13_TgraphAdj #entries: 18874728
+MR Time: 51.326131
+Starting TableMult SCALE=14 NUMTAB=8
+Both Split 8 & compact time: 11.479043
+Graphulo TableMult Time: 61.124919
+Result Table DH_14_TgraphAdj_tXDHB_14_TgraphAdj #entries: 39128654
+MR Time: 71.252851
+Starting TableMult SCALE=15 NUMTAB=8
+Both Split 8 & compact time: 13.151307
+Graphulo TableMult Time: 179.264311
+Result Table DH_15_TgraphAdj_tXDHB_15_TgraphAdj #entries: 105693262
+MR Time: 138.762908
+Starting TableMult SCALE=16 NUMTAB=8
+Both Split 8 & compact time: 16.694482
+Graphulo TableMult Time: 566.319723
+Result Table DH_16_TgraphAdj_tXDHB_16_TgraphAdj #entries: 249367407
+MR Time: 342.416208
+Starting TableMult SCALE=17 NUMTAB=8
+Both Split 8 & compact time: 30.620228
+Graphulo TableMult Time: 1654.558188
+Result Table DH_17_TgraphAdj_tXDHB_17_TgraphAdj #entries: 653365416
+MR Time: 1180.801605
+
+
+
+
+
+Starting TableMult SCALE=10 NUMTAB=16
+Both Split 16 & compact time: 13.834249
+Graphulo TableMult Time: 1.228795
+Result Table DH_10_TgraphAdj_tXDHB_10_TgraphAdj #entries: 816423
+MR Time: 55.676459
+Starting TableMult SCALE=11 NUMTAB=16
+Both Split 16 & compact time: 7.633349
+Graphulo TableMult Time: 2.070694
+Result Table DH_11_TgraphAdj_tXDHB_11_TgraphAdj #entries: 2341751
+MR Time: 54.444522
+Starting TableMult SCALE=12 NUMTAB=16
+Both Split 16 & compact time: 3.675748
+Graphulo TableMult Time: 7.304582
+Result Table DH_12_TgraphAdj_tXDHB_12_TgraphAdj #entries: 6768259
+MR Time: 56.354042
+Starting TableMult SCALE=13 NUMTAB=16
+Both Split 16 & compact time: 7.171717
+Graphulo TableMult Time: 20.186594
+Result Table DH_13_TgraphAdj_tXDHB_13_TgraphAdj #entries: 17134954
+MR Time: 62.902628
+Starting TableMult SCALE=14 NUMTAB=16
+Both Split 16 & compact time: 4.884361
+Graphulo TableMult Time: 55.056063
+Result Table DH_14_TgraphAdj_tXDHB_14_TgraphAdj #entries: 39192571
+MR Time: 81.704332
+Starting TableMult SCALE=15 NUMTAB=16
+Both Split 16 & compact time: 7.577597
+Graphulo TableMult Time: 175.597544
+Result Table DH_15_TgraphAdj_tXDHB_15_TgraphAdj #entries: 96984913
+MR Time: 143.146541
+Starting TableMult SCALE=16 NUMTAB=16
+Both Split 16 & compact time: 13.472220
+Graphulo TableMult Time: 517.746028
+Result Table DH_16_TgraphAdj_tXDHB_16_TgraphAdj #entries: 235111499
+MR Time: 338.642385
+Starting TableMult SCALE=17 NUMTAB=16
+Both Split 16 & compact time: 42.548203
+Graphulo TableMult Time: 1686.304849
+Result Table DH_17_TgraphAdj_tXDHB_17_TgraphAdj #entries: 658309865
+MR Time: 1286.461906
+
+
+
+
+
+
+
+
+
+BAD MR
+
+Starting TableMult SCALE=10 NUMTAB=8
+Both Split 8 & compact time: 45.027343
+Graphulo TableMult Time: 2.776733
+Result Table DH_10_TgraphAdj_tXDHB_10_TgraphAdj #entries: 816423
+MR Time: 49.319286
+Starting TableMult SCALE=11 NUMTAB=8
+Both Split 8 & compact time: 42.372285
+Graphulo TableMult Time: 9.503603
+Result Table DH_11_TgraphAdj_tXDHB_11_TgraphAdj #entries: 2341751
+MR Time: 47.731240
+Starting TableMult SCALE=12 NUMTAB=8
+Both Split 8 & compact time: 38.445284
+Graphulo TableMult Time: 6.920332
+Result Table DH_12_TgraphAdj_tXDHB_12_TgraphAdj #entries: 6768259
+MR Time: 52.411670
+Starting TableMult SCALE=13 NUMTAB=8
+Both Split 8 & compact time: 40.602279
+Graphulo TableMult Time: 16.205976
+Result Table DH_13_TgraphAdj_tXDHB_13_TgraphAdj #entries: 18874728
+MR Time: 70.312913
+Starting TableMult SCALE=14 NUMTAB=8
+Both Split 8 & compact time: 38.728594
+Graphulo TableMult Time: 67.164639
+Result Table DH_14_TgraphAdj_tXDHB_14_TgraphAdj #entries: 39211146
+MR Time: 124.294932
+Starting TableMult SCALE=15 NUMTAB=8
+Both Split 8 & compact time: 43.879211
+Graphulo TableMult Time: 206.178450
+Result Table DH_15_TgraphAdj_tXDHB_15_TgraphAdj #entries: 99221774
+MR Time: 363.731108
+Starting TableMult SCALE=16 NUMTAB=8
+Both Split 8 & compact time: 49.491443
+Graphulo TableMult Time: 607.729940
+Result Table DH_16_TgraphAdj_tXDHB_16_TgraphAdj #entries: 243278018
+ans =  1
+MR Time: 1938.391939
+Starting TableMult SCALE=17 NUMTAB=8
+Both Split 8 & compact time: 51.913386
+Graphulo TableMult Time: 1809.450551
+Result Table DH_17_TgraphAdj_tXDHB_17_TgraphAdj #entries: 614910142
+ans =  1
+MR Time: 1949.143190
+Starting TableMult SCALE=18 NUMTAB=8
+Both Split 8 & compact time: 69.358837
+Graphulo TableMult Time: 5813.446606
+Result Table DH_18_TgraphAdj_tXDHB_18_TgraphAdj #entries: 1679296361
+ans =  1
+MR Time: 2572.959743
+
+
+
+
+
+
+
+
+
+
+13:27:44
+
+2016-11-28 14:05:50,006 [master.Master] WARN : Lost servers [worker3:9997[358a7e583430001]]
+2016-11-28 14:05:50,006 [master.EventCoordinator] INFO : There are now 7 tablet servers
+2016-11-28 14:05:50,355 [master.EventCoordinator] INFO : Marked 51 tablets as suspended because they don't have current servers
+2016-11-28 14:05:50,355 [master.EventCoordinator] INFO : [Normal Tablets]: 51 tablets are ASSIGNED_TO_DEAD_SERVER
+
+
+2016/11/28 08:36:02,895 tserver:worker3
+Got an IOException in internalRead!
+  java.io.IOException: Connection reset by peer
+    at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+    at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+    at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+    at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+    at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+    at org.apache.thrift.transport.TNonblockingSocket.read(TNonblockingSocket.java:142)
+    at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.internalRead(AbstractNonblockingServer.java:539)
+    at org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.read(AbstractNonblockingServer.java:338)
+    at org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread.handleRead(AbstractNonblockingServer.java:203)
+    at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.select(TNonblockingServer.java:203)
+    at org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.run(TNonblockingServer.java:154)
+
+Conclusion: worker3 crashed. Then it started back up somehow, one hour later.
+Proof:
+  [centos@worker3 ~]$ uptime
+   21:15:03 up  5:50,  1 user,  load average: 0.03, 0.08, 0.07
+  [centos@worker3 ~]$ ssh worker4
+  [centos@worker4 ~]$ uptime
+   21:15:15 up 23:01,  1 user,  load average: 0.01, 0.04, 0.07
+
+Results scale 16 - 18 are wrong - MR jobs failed. Reducer failed.
+
+When re-running scale 16:
+16/11/28 21:27:10 INFO mapreduce.Job:  map 100% reduce 95%
+16/11/28 21:27:42 INFO mapreduce.Job:  map 100% reduce 96%
+16/11/28 21:29:19 INFO mapreduce.Job: Task Id : attempt_1480285575464_0028_r_000000_0, Status : FAILED
+AttemptID:attempt_1480285575464_0028_r_000000_0 Timed out after 600 secs
+16/11/28 21:29:20 INFO mapreduce.Job:  map 100% reduce 90%
+16/11/28 21:29:34 INFO mapreduce.Job:  map 100% reduce 97%
+16/11/28 21:38:33 INFO mapreduce.Job:  map 100% reduce 98%
+16/11/28 21:39:49 INFO mapreduce.Job:  map 100% reduce 99%
+16/11/28 21:39:50 INFO mapreduce.Job: Task Id : attempt_1480285575464_0028_r_000000_2, Status : FAILED
+AttemptID:attempt_1480285575464_0028_r_000000_2 Timed out after 600 secs
+16/11/28 21:40:07 INFO mapreduce.Job:  map 100% reduce 100%
+16/11/28 21:40:27 INFO mapreduce.Job: Job job_1480285575464_0028 completed successfully
+16/11/28 21:40:27 INFO mapreduce.Job: Counters: 52
+        Job Counters
+                Failed reduce tasks=2
+                Killed map tasks=1
+
+octave:7> G.countEntries('DH_16_TgraphAdj_tXDHB_16_TgraphAdj_mr')
+ans =  187599076
+
+I think this is incorrect.
+
+I need to make MapReduce not re-schedule or over-schedule reduce tasks for correctness.
+Also increase the timeout parameter.
+See https://stackoverflow.com/questions/20560279/hadoop-how-to-increase-the-limit-of-failed-tasks?rq=1
+
+mapred-site.xml
+<property>
+  <name>mapred.task.timeout</name>
+  <value>1800000</value> <!-- 30 minutes -->
+</property>
+
+Increase MapReduce task timeout to 30 minutes.
+Disabling reduce speculative execution (ramping up the last reduce tasks).
+Set max # of reduce attempts to 1.
+
+An interesting experiment compares
+1. 4-node Accumulo, 4 separate nodes MR
+2. 4-super-node Accumulo (each node twice as powerful) Graphulo
+
+
+([lwm]\w+)\n(\d+\.\d+\.\d+\.\d+)\n(\d+\.\d+\.\d+\.\d+)\n
+$1 $3 $2
+
+
+declare -a arrall=("worker1" "worker2" "worker3" "worker4" "worker5" "worker6" "worker7" "worker8" "leader1" "leader2" "leader3")
+for i in "${arrall[@]}"
+do
+  ssh $i sed -i 's/7200000/72000000/g' /home/centos/install/hadoop-2.7.2/etc/hadoop/mapred-site.xml
+done
+
+for i in "${arrall[@]}"
+do
+  ssh $i grep '7200000' /home/centos/install/hadoop-2.7.2/etc/hadoop/mapred-site.xml
+done
+
+
+
+29 Nov 2016 03:32:16,608 DEBUG - Graphulo.TwoTable(738) -  66588%00; :%00; [1] 9223372036854775807 false -> 86841860 entries processed
+29 Nov 2016 03:32:36,779 DEBUG - Graphulo.TwoTable(738) -  81971%00; :%00; [1] 9223372036854775807 false -> 84561694 entries processed
+29 Nov 2016 03:37:36,753 DEBUG - Graphulo.TwoTable(738) -  385%00; :%00; [1] 9223372036854775807 false -> 119863401 entries processed
+29 Nov 2016 03:38:38,426 DEBUG - Graphulo.TwoTable(738) -  2049%00; :%00; [1] 9223372036854775807 false -> 130185193 entries processed
+29 Nov 2016 03:38:43,134 DEBUG - Graphulo.TwoTable(738) -  30753%00; :%00; [1] 9223372036854775807 false -> 128301159 entries processed
+29 Nov 2016 03:40:16,511 DEBUG - Graphulo.TwoTable(738) -  51297%00; :%00; [1] 9223372036854775807 false -> 154067725 entries processed
+29 Nov 2016 03:42:04,907 DEBUG - Graphulo.TwoTable(738) -  13449%00; :%00; [1] 9223372036854775807 false -> 171319174 entries processed
+29 Nov 2016 03:44:21,820 DEBUG - Graphulo.TwoTable(738) -   :%00; [1] 9223372036854775807 false -> 211938207 entries processed
+Graphulo TableMult Time: 1528.709139
+Result Table DH_17_TgraphAdj_tXDHB_17_TgraphAdj #entries: 653006675
+
+The timeout was actually 3 minutes. I adjusted it to 2 hours.
+
+
+Starting TableMult SCALE=10 NUMTAB=8
+Both Split 8 & compact time: 2.269311
+Graphulo TableMult Time: 0.898089
+Result Table DH_10_TgraphAdj_tXDHB_10_TgraphAdj #entries: 816423
+outEntriesG =  268551
+reducers: 10
+MR Time: 49.471403
+outEntriesMR =  268551
+Starting TableMult SCALE=11 NUMTAB=8
+Both Split 8 & compact time: 2.546867
+Graphulo TableMult Time: 1.361087
+Result Table DH_11_TgraphAdj_tXDHB_11_TgraphAdj #entries: 2341751
+outEntriesG =  790099
+reducers: 10
+MR Time: 44.547304
+outEntriesMR =  790099
+
+
+
+Starting TableMult SCALE=10 NUMTAB=8
+Both Split 8 & compact time: 5.124561
+Graphulo TableMult Time: 1.399638
+Result Table DH_10_TgraphAdj_tXDHB_10_TgraphAdj #entries: 816423
+outEntriesG =  268551
+MR Time: 47.791711
+outEntriesMR =  268551
+Starting TableMult SCALE=11 NUMTAB=8
+Both Split 8 & compact time: 2.439566
+Graphulo TableMult Time: 1.071163
+Result Table DH_11_TgraphAdj_tXDHB_11_TgraphAdj #entries: 2341751
+outEntriesG =  790099
+MR Time: 45.208741
+outEntriesMR =  790099
+Starting TableMult SCALE=12 NUMTAB=8
+Both Split 8 & compact time: 2.822225
+Graphulo TableMult Time: 2.446991
+Result Table DH_12_TgraphAdj_tXDHB_12_TgraphAdj #entries: 6768259
+outEntriesG =  2408789
+MR Time: 44.665036
+outEntriesMR =  2408789
+Starting TableMult SCALE=13 NUMTAB=8
+Both Split 8 & compact time: 3.153415
+Graphulo TableMult Time: 6.742890
+Result Table DH_13_TgraphAdj_tXDHB_13_TgraphAdj #entries: 18874728
+outEntriesG =  6974635
+MR Time: 51.500159
+outEntriesMR =  6974635
+Starting TableMult SCALE=14 NUMTAB=8
+Both Split 8 & compact time: 4.028877
+Graphulo TableMult Time: 29.679295
+Result Table DH_14_TgraphAdj_tXDHB_14_TgraphAdj #entries: 38363564
+outEntriesG =  23434482
+MR Time: 65.704264
+outEntriesMR =  24885048
+WARNING: Different number of entries in MR and G
+Starting TableMult SCALE=15 NUMTAB=8
+Both Split 8 & compact time: 5.344330
+Graphulo TableMult Time: 82.052937
+Result Table DH_15_TgraphAdj_tXDHB_15_TgraphAdj #entries: 95500635
+outEntriesG =  63820086
+MR Time: 125.798402
+outEntriesMR =  70538556
+WARNING: Different number of entries in MR and G
+Starting TableMult SCALE=16 NUMTAB=8
+Both Split 8 & compact time: 7.795495
+Graphulo TableMult Time: 289.454081
+Result Table DH_16_TgraphAdj_tXDHB_16_TgraphAdj #entries: 254575851
+outEntriesG =  230189389
+MR Time: 343.527135
+outEntriesMR =  251401663
+WARNING: Different number of entries in MR and G
+Starting TableMult SCALE=17 NUMTAB=8
+Both Split 8 & compact time: 17.392185
+Graphulo TableMult Time: 1085.881491
+Result Table DH_17_TgraphAdj_tXDHB_17_TgraphAdj #entries: 607263455
+outEntriesG =  919088808
+MR Time: 979.980753
+outEntriesMR =  971042005
+WARNING: Different number of entries in MR and G
+Starting TableMult SCALE=18 NUMTAB=8
+Both Split 8 & compact time: 27.749666
+Graphulo TableMult Time: 3670.190375
+Result Table DH_18_TgraphAdj_tXDHB_18_TgraphAdj #entries: 1838656510
+outEntriesG =    2.5586e+09
+MR Time: 3677.806115
+outEntriesMR =    2.6931e+09
+WARNING: Different number of entries in MR and G
+Starting TableMult SCALE=19 NUMTAB=8
+Both Split 8 & compact time: 54.609724
+Graphulo TableMult Time: 15608.419144
+Result Table DH_19_TgraphAdj_tXDHB_19_TgraphAdj #entries: 678968322
+outEntriesG =    6.5804e+09
+MR Time: 22291.157188
+outEntriesMR =    5.2481e+09
+WARNING: Different number of entries in MR and G
+
+
+
+after compaction:
+splitPointsR = 141,21,29,386,515,607,769,
+splitSizesR = 20177,29528,29370,32218,33608,36558,42120,44972,
+NUMTAB 8 SCALE 10 
+ R     141,21,29,386,515,607,769,
+ RBest 169,263,345,46,567,667,801,
+ R     84915,101761,98995,100665,100887,110418,114239,104543,
+ RBest 33637,33698,33422,33598,33502,33703,33600,33391,
+
+after compaction:
+splitPointsR = 1093,133,17,261,37,529,689,
+splitSizesR = 62288,114627,136720,99388,80197,81153,95770,119956,
+NUMTAB 8 SCALE 11 
+ R     1093,133,17,261,37,529,689,
+ RBest 1162,138,165,23,371,550,738,
+ R     250302,308159,342759,280347,281734,283391,288530,306529,
+ RBest 98767,99309,98252,99771,97804,98924,98660,98612,
+
+after compaction:
+splitPointsR = 1171,1601,2081,2563,3089,411,642,
+splitSizesR = 213076,339409,269215,363690,307853,388447,241156,285943,
+NUMTAB 8 SCALE 12 
+ R     1171,1601,2081,2563,3089,411,642,
+ RBest 1289,1670,2145,2577,310,3784,617,
+ R     767303,913041,796467,915206,852352,878962,812201,832727,
+ RBest 302500,299993,300944,301475,300878,300851,301754,300394,
+
+after compaction:
+splitPointsR = 130,2049,2568,33,4230,516,643,
+splitSizesR = 586934,810214,821246,813972,810346,977549,1068030,1086344,
+NUMTAB 8 SCALE 13 
+ R     130,2049,2568,33,4230,516,643,
+ RBest 1537,2193,2881,399,4631,557,6701,
+ R     2094478,2277276,2401575,2296943,2325421,2469661,2555403,2453971,
+ RBest 873593,872770,869153,872885,871108,871618,872772,870736,
+
+after compaction:
+splitPointsR = 121,1573,2345,35,4629,6209,8265,
+splitSizesR = 2500223,3204307,2042604,2324750,2191303,2531883,2485112,3077150,
+NUMTAB 8 SCALE 14 
+ R     121,1573,2345,35,4629,6209,8265,
+ RBest 1222,1466,2316,3596,4873,6453,8449,
+ R     3468137,4194097,6324945,3490543,5082134,3365571,6582867,5855270,
+ RBest 2547780,2542999,2544448,2544192,2543982,2545229,2548403,2540299,
+
+after compaction:
+splitPointsR = 12881,16705,20499,2503,3473,5137,801,
+splitSizesR = 6737970,6718470,8297809,8259963,8659907,5747359,6983823,6667426,
+NUMTAB 8 SCALE 15 
+ R     12881,16705,20499,2503,3473,5137,801,
+ RBest 1311,16969,2050,24661,301,4805,76,
+ R     11308031,9324421,11900182,14775410,13093801,12445724,12405845,10247221,
+ RBest 7260739,7264576,7253473,7259480,7264940,7252694,7266461,7250364,
+
+after compaction:
+splitPointsR = 14473,18689,25,33041,402,49345,6550,
+splitSizesR = 17505821,17934470,20355236,18663798,24668582,21526763,25084492,17191332,
+NUMTAB 8 SCALE 16 
+ R     14473,18689,25,33041,402,49345,6550,
+ RBest 1577,2051,2672,34185,41187,49721,6195,
+ R     28458179,26668222,29186709,27026006,41903119,32573109,39551299,29209208,
+ RBest 20373242,20370756,20355947,20366376,20370268,20362553,20366433,20364919,
+
+after compaction:
+splitPointsR = 1347,2049,3075,385,51289,66585,81970,
+splitSizesR = 65167549,48232199,53084511,51909955,57757185,51732289,67272175,64498995,
+NUMTAB 8 SCALE 17 
+ R     1347,2049,3075,385,51289,66585,81970,
+ RBest 12613,20551,32780,412,53817,68678,8260,
+ R     74008249,66245769,67310423,71595742,78207533,67084681,90283228,92527830,
+ RBest 57465323,57458055,57476395,57436108,57452328,57453041,57476866,57436742,
+
+after compaction:
+splitPointsR = 132005,1587,196802,258,387,57633,74257,
+splitSizesR = 144426698,187756356,165579046,194189549,134444417,147388653,140142042,165389106,
+NUMTAB 8 SCALE 18 
+ R     132005,1587,196802,258,387,57633,74257,
+ RBest 13313,155747,189570,23245,36103,54537,66945,74776,
+ R     228514134,275793956,194768497,237472121,210922142,190644544,240003823,260537293,
+ RBest 159971865,159858594,159927596,159906776,159931488,159903006,79974191,79928689,159913662,
+
+after compaction:
+splitPointsR = 1250,135729,155657,17570,196663,20673,257,268358,291459,3054,32834,352451,38,401927,4228,459018,5571,68225,82454,
+splitSizesR = 199175655,165776290,233256775,211994596,122017264,117883140,248778041,176608904,241296780,122490066,118026690,226610050,134506539,129179028,127717356,135834178,227597826,176351472,206166117,209127635,
+
+
+
+#declare -a arrall=("worker1" "worker2" "worker3" "worker4" "leader1" "leader2" "leader3")
+str2num(putCol(A(:,'mrTime_2,'),'mrTime,')) - str2num(putCol(A(:,'mrTime_1,'),'mrTime,'))
+str2num(Ainfo(:,StartsWith('outEntries,')))
