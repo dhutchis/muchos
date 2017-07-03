@@ -22,7 +22,7 @@
   </property>
   <property>
     <name>table.durability</name>
-    <value>flush</value>
+    <value>log</value>
   </property>
 
 {% if accumulo_major_version == '1' %}
@@ -54,14 +54,10 @@
     <value>64</value>
   </property>
 
-  <property>
+ <!--  <property>
     <name>tserver.sort.buffer.size</name>
     <value>50M</value>
-  </property>
-  <property>
-    <name>tserver.wal.sync.method</name>
-    <value>hflush</value>
-  </property>
+  </property> -->
   <property>
     <name>general.classpaths</name>
     <value>
@@ -95,7 +91,7 @@
 
   <property>
     <name>tserver.walog.max.size</name>
-    <value>512M</value>
+    <value>1G</value>
   </property>
 
 </configuration>
