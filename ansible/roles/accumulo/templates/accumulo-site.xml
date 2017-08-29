@@ -22,7 +22,7 @@
   </property>
   <property>
     <name>table.durability</name>
-    <value>log</value>
+    <value>flush</value>
   </property>
 
 {% if accumulo_major_version == '1' %}
