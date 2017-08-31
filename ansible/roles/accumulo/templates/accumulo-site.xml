@@ -22,7 +22,23 @@
   </property>
   <property>
     <name>table.durability</name>
-    <value>flush</value>
+    <value>log</value>
+  </property>
+  <property>
+    <name>tserver.memory.maps.native.enabled</name>
+    <value>true</value>
+  </property>
+  <property>
+    <name>tserver.readahead.concurrent.max</name>
+    <value>64</value>
+  </property>
+  <property>
+    <name>tserver.server.threads.minimum</name>
+    <value>64</value>
+  </property>
+  <property>
+    <name>tserver.walog.max.size</name>
+    <value>512M</value>
   </property>
 
 {% if accumulo_major_version == '1' %}
@@ -38,26 +54,14 @@
     <name>tserver.memory.maps.max</name>
     <value>{{ accumulo_imap_size }}</value>
   </property>
-
   <property>
-    <name>tserver.memory.maps.native.enabled</name>
-    <value>true</value>
-  </property>
-
-  <property>
-    <name>tserver.readahead.concurrent.max</name>
-    <value>64</value>
-  </property>
-
-  <property>
-    <name>tserver.server.threads.minimum</name>
-    <value>64</value>
-  </property>
-
- <!--  <property>
     <name>tserver.sort.buffer.size</name>
     <value>50M</value>
-  </property> -->
+  </property>
+  <property>
+    <name>tserver.wal.sync.method</name>
+    <value>hflush</value>
+  </property>
   <property>
     <name>general.classpaths</name>
     <value>
@@ -78,20 +82,4 @@
     </value>
   </property>
 {% endif %}
-
-  <property>
-    <name>trace.span.receiver.tracer.span.min.ms</name>
-    <value>100</value>
-  </property>
-
-  <property>  
-    <name>table.split.threshold</name>  
-    <value>2G</value> 
-  </property> 
-
-  <property>
-    <name>tserver.walog.max.size</name>
-    <value>1G</value>
-  </property>
-
 </configuration>
