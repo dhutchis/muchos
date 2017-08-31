@@ -86,7 +86,7 @@
 
   <property>  
     <name>table.split.threshold</name>  
-    <value>10G</value> 
+    <value>2G</value> 
   </property> 
 
   <property>

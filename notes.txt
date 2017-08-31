@@ -162,6 +162,61 @@ EOF
 
 
 
+http://wiki.octave.org/Octave_for_Red_Hat_Linux_systems
+
+
+INTERNET EXPERIMENT
+** Careful not to exceed cluster hard disk space - 
+DFS Used: 523.38 GB (88.94%)
+2.5M entries/sec ingest steady
+root@muchos> du -h -t pld_bk_upper2
+    3.61G [pld_bk_upper2]
+root@muchos> du -h -t DH_2012_pld_arc_TgraphAdjUU_triCount_tmpA
+  163.43G [DH_2012_pld_arc_TgraphAdjUU_triCount_tmpA]
+55.66B entries
+
+^C30 Aug 2017 22:20:07,241 DEBUG - Graphulo.TwoTable(771) -  11230991%00; : [0] -> -2144537352 entries processed
+30 Aug 2017 22:20:07,583 DEBUG - Graphulo.TwoTable(771) -  18966791%00; : [0] -> -1942557490 entries processed
+30 Aug 2017 22:20:07,589 DEBUG - Graphulo.TwoTable(771) -  17460969%00; : [0] -> -1189451853 entries processed
+30 Aug 2017 22:20:07,619 DEBUG - Graphulo.TwoTable(771) -  16612303%00; : [0] -> 1966908168 entries processed
+30 Aug 2017 22:20:07,712 DEBUG - Graphulo.TwoTable(771) -  11841952%00; : [0] -> 1985090255 entries processed
+30 Aug 2017 22:20:07,715 DEBUG - Graphulo.TwoTable(771) -  23519635%00; : [0] -> 1800201360 entries processed
+30 Aug 2017 22:20:07,728 DEBUG - Graphulo.TwoTable(771) -  29989633%00; : [0] -> 1582284525 entries processed
+30 Aug 2017 22:20:07,735 DEBUG - Graphulo.TwoTable(771) -  31306001%00; : [0] -> 1411847645 entries processed
+30 Aug 2017 22:20:07,822 DEBUG - Graphulo.TwoTable(771) -  18258889%00; : [0] -> 1817692422 entries processed
+30 Aug 2017 22:20:07,850 DEBUG - Graphulo.TwoTable(771) -  24631373%00; : [0] -> 54078196 entries processed
+30 Aug 2017 22:20:07,892 DEBUG - Graphulo.TwoTable(771) -  15186648%00; : [0] -> 1491562556 entries processed
+30 Aug 2017 22:20:07,892 DEBUG - Graphulo.TwoTable(771) -  21691544%00; : [0] -> 284890746 entries processed
+30 Aug 2017 22:20:07,973 DEBUG - Graphulo.TwoTable(771) -  10655680%00; : [0] -> -1934534576 entries processed
+30 Aug 2017 22:20:07,976 DEBUG - Graphulo.TwoTable(771) -  28694383%00; : [0] -> 1759672312 entries processed
+30 Aug 2017 22:20:08,020 DEBUG - Graphulo.TwoTable(771) -   : [] -> -1964810626 entries processed
+30 Aug 2017 22:20:08,040 DEBUG - Graphulo.TwoTable(771) -  2071093%00; : [0] -> -1906140503 entries processed
+30 Aug 2017 22:20:08,046 DEBUG - Graphulo.TwoTable(771) -  35948875%00; : [0] -> 1268351158 entries processed
+30 Aug 2017 22:20:08,102 DEBUG - Graphulo.TwoTable(771) -  37992809%00; : [0] -> 1163123779 entries processed
+30 Aug 2017 22:20:08,235 DEBUG - Graphulo.TwoTable(771) -  15874697%00; : [0] -> -1732803554 entries processed
+30 Aug 2017 22:20:08,267 DEBUG - Graphulo.TwoTable(771) -  39982645%00; : [0] -> 1294403275 entries processed
+30 Aug 2017 22:20:08,319 DEBUG - Graphulo.TwoTable(771) -  4249068%00; : [0] -> 1499354560 entries processed
+30 Aug 2017 22:20:08,404 DEBUG - Graphulo.TwoTable(771) -  27617463%00; : [0] -> 60110926 entries processed
+30 Aug 2017 22:20:08,476 DEBUG - Graphulo.TwoTable(771) -  32776475%00; : [0] -> 1410540138 entries processed
+30 Aug 2017 22:20:08,534 DEBUG - Graphulo.TwoTable(771) -  34288367%00; : [0] -> 1845375508 entries processed
+30 Aug 2017 22:20:08,734 DEBUG - Graphulo.TwoTable(771) -  22671570%00; : [0] -> -48384192 entries processed
+30 Aug 2017 22:20:09,224 DEBUG - Graphulo.TwoTable(771) -  1974955%00; : [0] -> 1995022194 entries processed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ***********************************************************************************************
 ***********************************************************************************************
